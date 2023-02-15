@@ -1,14 +1,14 @@
 {
-  "name": "ng2-tooltip-directive",
-  "version": "2.10.0",
+  "name": "angular-tooltip",
+  "version": "15.0.0",
   "description": "Tooltip for Angular",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/drozhzhin-n-e/ng2-tooltip-directive.git"
+    "url": "git+https://github.com/ocsi94/ng2-tooltip-directive.git"
   },
   "author": {
-    "name": "Nikita Drozhzhin",
-    "email": "drozhzhin.n.e@gmail.com"
+    "name": "Gyula Baraksó",
+    "email": "barakso.gyula@webed.hu"
   },
   "keywords": [
     "Angular",
@@ -18,16 +18,16 @@
     "tooltip",
     "popover"
   ],
-  "homepage": "http://ivylab.space/tooltip",
+  "homepage": "https://webed.hu",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/drozhzhin-n-e/ng2-tooltip-directive/issues"
+    "url": "https://github.com/ocsi94/ng2-tooltip-directive/issues"
   },
   "peerDependencies": {
-    "@angular/common": "^10.0.5",
-    "@angular/core": "^10.0.5"
+    "@angular/common": "^15.1.4",
+    "@angular/core": "^15.1.4"
   },
   "dependencies": {
-    "tslib": "^2.0.0"
+    "tslib": "^2.5.0"
   }
 }
