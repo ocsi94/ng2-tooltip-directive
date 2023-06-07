@@ -13,7 +13,6 @@
     "downlevelIteration": true,
     "paths": {
       "ng2-tooltip-directive": [
-        "dist/ng2-tooltip-directive/ng2-tooltip-directive",
         "dist/ng2-tooltip-directive"
       ]
     },

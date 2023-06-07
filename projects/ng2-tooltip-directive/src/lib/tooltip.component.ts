@@ -1,14 +1,15 @@
-import {Component, ElementRef, HostListener, HostBinding, Input, OnInit, EventEmitter, Renderer2} from '@angular/core';
-
+import { CommonModule } from '@angular/common';
+import {Component, ElementRef, HostListener, HostBinding, Input, EventEmitter, Renderer2} from '@angular/core';
 @Component({
     selector: 'tooltip',
     templateUrl: './tooltip.component.html',
     host: {
         'class': 'tooltip'
     },
-    styleUrls: ['./tooltip.component.sass']
+    styleUrls: ['./tooltip.component.sass'],
+    standalone: true,
+    imports:[ CommonModule],
 })
-
 export class TooltipComponent {
     _show: boolean = false;
     events = new EventEmitter();
@@ -77,7 +78,9 @@ export class TooltipComponent {
         return this.options['theme'] === 'light';
     }
 
-    constructor(private elementRef: ElementRef, private renderer: Renderer2) {}
+    constructor(private elementRef: ElementRef, private renderer: Renderer2) {
+      console.log('createdTooltip')
+    }
 
     ngOnInit() {
         this.setCustomClass();

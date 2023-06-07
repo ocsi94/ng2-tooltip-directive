@@ -11,10 +11,10 @@ Install the npm package.
 Import `Ng2Module`:
 
 ```ts
-import { TooltipModule } from 'angular-tooltip';
+import { TooltipDirective } from 'webed-team/ng2-tooltip-directive';
  
 @NgModule({
-    imports: [ TooltipModule ]
+    imports: [ TooltipDirective ]
 }) 
 ```
 
@@ -73,8 +73,8 @@ import { TooltipModule, TooltipOptions } from 'angular-tooltip';
 import { MyDefaultTooltipOptions } from './my-default-options';
  
 @NgModule({
-    imports: [ 
-      TooltipModule.forRoot(MyDefaultTooltipOptions as TooltipOptions)
+    providers: [ 
+     { provide:TooltipOptions,useValue: MyDefaultTooltipOptions }
     ]
 })
 ```

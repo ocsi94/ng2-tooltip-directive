@@ -1,10 +1,10 @@
 {
-  "name": "angular-tooltip",
-  "version": "15.0.0",
+  "name": "@webed/angular-tooltip",
+  "version": "16.0.1",
   "description": "Tooltip for Angular",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ocsi94/ng2-tooltip-directive.git"
+    "url": "git+https://github.com/webed-team/ng2-tooltip-directive.git"
   },
   "author": {
     "name": "Gyula Baraksó",
@@ -21,11 +21,11 @@
   "homepage": "https://webed.hu",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ocsi94/ng2-tooltip-directive/issues"
+    "url": "https://github.com/webed-team/ng2-tooltip-directive/issues"
   },
   "peerDependencies": {
-    "@angular/common": "^15.1.4",
-    "@angular/core": "^15.1.4"
+    "@angular/common": "^16.0.0",
+    "@angular/core": "^16.0.0"
   },
   "dependencies": {
     "tslib": "^2.5.0"
